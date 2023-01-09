@@ -9,3 +9,6 @@ func TestAdd(t *testing.T) {
 
 	// miss covering other conditions
 }
+func TestComp(t *testing.T) {
+    t.Errorf("expect %v, but got %v", 2, v)
+}
